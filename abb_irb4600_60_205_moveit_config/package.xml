@@ -7,6 +7,7 @@
       MoveIt package for the ABB IRB 4600-60/205.
     </p>
   </description>
+  <maintainer email="keerthana.manivannan@gmail.com">Keerthana Manivannan</maintainer>
 
   <license>BSD</license>
 
