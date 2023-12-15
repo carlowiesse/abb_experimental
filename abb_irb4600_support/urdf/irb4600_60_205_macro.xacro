@@ -165,5 +165,13 @@
       <parent link="${prefix}flange" />
       <child link="${prefix}tool0" />
     </joint>
+
+    <!-- ROS-Industrial 'tcp' frame: all-zeros tcp frame -->
+    <link name="${prefix}tcp" />
+    <joint name="${prefix}tool0-tcp" type="fixed">
+      <origin xyz="0.0401684 0.000485478 0.376941" rpy="-0.0280038 -0.0663927 -0.0018583" />
+      <parent link="${prefix}tool0" />
+      <child link="${prefix}tcp" />
+    </joint>
   </xacro:macro>
 </robot>
